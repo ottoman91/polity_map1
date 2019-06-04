@@ -1,0 +1,84 @@
+body, h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+  font-family: Hevetica;
+  color: #333;
+  font-weight: 400;
+}
+  .countries {
+    fill: none;
+    stroke: #fff;
+    stroke-linejoin: round;
+  } 
+
+  .countries2 {
+    fill: none;
+    stroke: #fff;
+    stroke-linejoin: round;
+  }
+  .legendThreshold {
+      font-size: 12px;
+      font-family: sans-serif;
+  }
+  .caption {
+      fill: #000;
+      text-anchor: start;
+      font-weight: bold;
+  }  
+
+  .caption2 {
+      fill: #000;
+      text-anchor: start;
+      font-weight: bold;
+  } 
+
+
+  .tooltip {
+  position: absolute;
+  padding: 7px;
+  font-size: 0.9em;
+  pointer-events: none;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+
+  -moz-box-shadow:    3px 3px 10px 0px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.25);
+  box-shadow:         3px 3px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+.tooltip p {
+  margin: 0;
+  padding: 0;
+}
+
+.tooltip table {
+  margin: 0;
+  padding: 0;
+  border-collapse: collapse;
+} 
+
+.tooltip2 {
+  position: absolute;
+  padding: 7px;
+  font-size: 0.9em;
+  pointer-events: none;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+
+  -moz-box-shadow:    3px 3px 10px 0px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.25);
+  box-shadow:         3px 3px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+.tooltip2 p {
+  margin: 0;
+  padding: 0;
+}
+
+.tooltip2 table {
+  margin: 0;
+  padding: 0;
+  border-collapse: collapse;
+}
